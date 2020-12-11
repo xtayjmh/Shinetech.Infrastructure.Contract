@@ -86,6 +86,11 @@ namespace Shinetech.Infrastructure.Contract
         /// <summary>
         /// 包含
         /// </summary>
-        Contains = 6
+        Contains = 6,
+
+        /// <summary>
+        /// 0点到23:59:59秒之间的
+        /// </summary>
+        BetweenAnd = 7
     }
 }
